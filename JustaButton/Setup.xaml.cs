@@ -23,5 +23,38 @@ namespace JustaButton
         {
             InitializeComponent();
         }
+
+
+
+        private void BtnScan_Click(object sender, RoutedEventArgs e)
+        {
+            ButtonList win2 = new ButtonList();   
+            win2.Show();
+            this.Close();
+        
+        }
+
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+          App.Current.MainWindow.Show();
+          this.Close();          
+        }
+
+        private void BtnAdd_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnFx_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnNetwork_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }
